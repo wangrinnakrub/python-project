@@ -1,0 +1,27 @@
+.p1{
+    background-color: blue;
+}
+.p2{
+    display: inline;
+    background-color: blue;
+}
+.p3{
+    display: none;
+}
+.p4{
+    visibility: hidden;
+}
+
+.span1{
+    background-color: aquamarine;
+}
+.span2{
+    display: block;
+    background-color: aquamarine;
+    background-size: 85%;
+}
+
+.div1{
+    background-color: coral;
+    max-width: 600px;
+}

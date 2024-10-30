@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>missher.html</title>
+
+    <style>
+
+        /* link to class with dot */
+        .containner{
+            width: 960px;
+            margin: 0 auto;
+            background-color: red;
+            color: #00000041;
+            }
+
+        .box{
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            background-color: rgb(162, 255, 229);
+        }
+
+        /* link to id with # */
+        #mybox{
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            background-color: rgb(246, 255, 0);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>html heading 1</h1>
+    <h2>html heading 2</h2>
+    <h3>html heading 3</h3>
+    <h4>html heading 4</h4>
+    <h5>html heading 5</h5>
+    <h6>html heading 6</h6>
+
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae a asperiores dolorum odio sapiente rerum consequuntur explicabo suscipit reprehenderit at praesentium dolores animi accusantium sint dolor, aperiam nulla molestias eligendi.
+    </p>
+
+    <!-- link web from url -->
+    <!-- <a href="https://google.com" target="_blank"> Go to google </a> -->
+
+     <!-- link web from folder -->
+    <a href="somuch.html" target="_blank"> คลิกเพื่อลุ้นโชค</a><br>
+
+    <!-- import img from website -->
+    <img width="100" height="100" src="https://upload.wikimedia.org/wikipedia/commons/9/96/Logo-warga-200x200.png" alt="w pic"><br>
+
+    <!-- import img from folder -->
+    <img src="img/pic1.png" alt="pic1"><br>
+
+
+
+    <table>
+        <!-- tr = table row -->
+        <tr>
+            <!-- th = table head -->
+            <th>ID</th>
+            <th>NAME</th>
+            <th>AGE</th>
+        </tr>
+
+        <tr>
+            <!-- td = table data -->
+            <td>1</td>
+            <td>John doe</td>
+            <td>20</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Moo doe</td>
+            <td>25</td>
+
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Mah doe</td>
+            <td>17</td>
+        </tr>
+
+    </table>
+
+    <!-- Unordered list -->
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Pepsi</li>
+    </ul>
+
+     <!-- Ordered list -->
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Pepsi</li>
+    </ol>
+
+    <b>Bold text</b><br>
+    <strong>Important text</strong><br>
+    <i>Italic text</i><br>
+    <em>Emphasized text</em><br>
+    <mark>Marked text</mark><br>
+    <small>Smaller text</small><br>
+    <del>Deleted text</del><br>
+    <ins>Inserted text</ins><br>
+    <sub>Subscript text</sub><br>
+    <sup>Superscipt text</sup><br>
+
+
+    <!-- input form -->
+    <form action="">
+        <fieldset>
+            <legend>Personal info</legend>
+            <label for="first name">First name : </label> <br> <!-- br = newline -->
+            <input type="text" name="firstname" placeholder="Enter your first name"> <br>
+            <label for="last name">Last name : </label> <br>
+            <input type="text" name="lastname" placeholder="Enter your last name"> <br>
+            <input type="button" value="Submit"> <br>
+        </fieldset><br>
+
+        <select name="cars" id="cars">
+            <option value="maclaren">maclaren</option>
+            <option value="ferrari">ferrari</option>
+            <option value="mustang" selected >mustang</option> <!-- use selected when you want to assign a default value -->
+        </select><br>
+
+        <br> datalist <br>
+        <input list="browsers" name="browsers"><br>
+        <datalist id="browsers">
+            <option value="maclaren">
+            <option value="ferrari">
+            <option value="mustang">
+        </datalist><br>
+
+        <textarea name="" id=""></textarea><br>
+
+        <button type='submit'> submit</button>
+
+        <input type="button" value=button>  <br>
+        <input type="checkbox"> <br>
+        <input type="color"> <br>
+        <input type="date"> <br>
+        <input type="datetime-local"> <br>
+        <input type="email"> <br>
+        <input type="file"> <br>
+        <input type="hidden"> <br>
+        <input type="image"> <br>
+        <input type="month"> <br>
+        <input type="number"> <br>
+        <input type="password" value="password"> <br>
+        <input type="radio"> <br>
+        <input type="range"> <br>
+        <input type="reset"> <br>
+        <input type="search"> <br>
+        <input type="submit"> <br>
+        <input type="tel"> <br>
+        <input type="text"> <br>
+        <input type="time"> <br>
+        <input type="url"> <br>
+        <input type="week"> <br>
+    </form>
+
+
+
+
+    <!-- block element -->
+    <div>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, voluptatem.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, voluptatem.
+        </p>
+    </div>
+
+    <hr>
+    <!-- Inline element -->
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+
+    <span>Text 1</span>
+    <span>Text 2</span>
+    <span>Text 3</span>
+
+    <!-- Parent element -->
+    <div>
+        <!-- Child element -->
+        <h1>Hello HTML</h1>
+        <p>Learn html and stuff</p>
+
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum molestiae earum aliquam? Dicta voluptatibus quos ullam sunt dolorum at non eaque maxime numquam minus, molestiae rem repudiandae architecto unde fuga.</p>
+        </div>
+    </div>
+
+    <!-- Html class -->
+    <div class="containner">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque reiciendis quam quo officiis magnam odio debitis consectetur ipsam quas facere.</p>
+
+        <div class="box">
+
+        </div>
+
+        <div class="box">
+
+        </div>
+    </div>
+
+    <div id="mybox">
+
+    </div>
+
+    <!-- Java script get element with id -->
+    <script>
+        let mybox = document.getElementById("mybox")
+
+        mybox.addEventListener("click",function(){
+            alert("Hello World")
+        })
+    </script>
+
+    <!-- Sementic element is an element that have meanings in it ex. <head> -->
+a
+
+</body>
+</html>

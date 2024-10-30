@@ -1,0 +1,8 @@
+{
+    "html-to-css-autocompletion.triggerCharacters": true,
+    "files.associations": {
+        ".php_cs": "php",
+        ".php_cs.dist": "php",
+        "ratio": "c"
+    }
+}
