@@ -1,6 +1,7 @@
 /* Style for basketball score sheet project */
 
-/* --- Login page --- */
+
+/* --- Login page a --- */
 
 *{
     background-color:  #f3f3f3;
